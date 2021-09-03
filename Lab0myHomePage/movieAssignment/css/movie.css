@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("../movie-Image/background.png");
+}
+#head1 {
+    text-align: center;
+background-image: url("../movie-Image/bannerbg.png");
+
+}
+
+#title {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    text-shadow: 3px 3px #999999;
+}
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid grey;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.rating {
+    width: 550px;
+    overflow: auto;
+}
+.overall {
+    width: 250px;
+    background-color: #A2B964;
+    float: right;
+    font-family: Arial, sans-serif;
+    font-size: 8pt;
+}
+.pages {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #A2B964;
+    height: 100%;
+    padding: 5px;
+    text-align: center;
+    clear: both;
+}
+
+.overall>dl {
+    margin-right: 10pt;
+    margin-left: 10pt;
+}
+
+dl>dt {
+    padding-top: 10pt;
+    font-weight: bold;
+}
+
+dd>ul {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.banner {
+    display: flex;
+    background-image: url(../movie-Image/rbg.png);
+    vertical-align: bottom;
+}
+
+.comments {
+    display: flex;
+}
+
+.comments:after {
+    clear: both;
+}
+
+.leftCol {
+    float: left;
+    width: 50%;
+}
+
+.rightCol {
+    float: right;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.comments>p {
+    display: inline-block;
+    width: 47%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-left: 2%
+}
+
+.comBody {
+    margin-left: 2%;
+    border: 2pt solid grey;
+    border-radius: 10px;
+    font-size: 8pt;
+    background-color: #f3e8aa;
+    padding: 8px;
+    overflow: auto;
+}
+
+
+
+.rightCol>.comBody {
+    margin-right: 2%;
+}
+.leftCol>.comBody {
+    margin-right: 2%;
+}
+.comBody>img {
+    float: left;
+    padding-right: 5px;
+    overflow: auto;
+}
+
+.author {
+    margin-left: 2%;
+    font-style: italic;
+    padding-bottom: 20pt;
+}
+
+.author>img {
+    float: left;
+    padding-right: 5px;
+}
+
+#rate33 {
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+}
+
+#foot {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+

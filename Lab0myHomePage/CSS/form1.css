@@ -1,0 +1,44 @@
+
+#fiels {
+    background-color: white;
+    border-radius: 5;
+}
+ 
+.container input{
+   
+   margin-left: 15em;
+   
+    background-position: 11px 8px; 
+   margin: 5px;
+    align-items: center;
+    text-shadow: initial;
+}
+span{
+    color: red;
+}
+#sub {
+    background-color: pink;
+    
+}
+#seek1{
+    text-align: center;
+    text-emphasis-color: inherit;
+}
+#seek2{
+    text-align: center;
+}
+fieldset{
+   margin-top: 30px;
+    height: 300px;
+    width: 550px;
+    border-radius: 10px;
+    background-color:darkgray;
+}
+legend{
+    background-position: 11px 8px;
+    border-top-color: black;
+  border-block-color: inherit;
+    background-color: white;
+    color: black;
+    padding: 5px 10px;
+}

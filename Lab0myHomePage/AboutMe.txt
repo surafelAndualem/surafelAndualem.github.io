@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WAP - About</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+    <h1>
+        About Gantushig Javkhlan
+    </h1>
+    <p>
+        My name is <strong>tushig</strong> and I like to <strong>write a code</strong> :))
+    </p>
+    <hr>
+    </header>
+    
+    <div class="classes">
+        <h2>
+            My Classes This Quarter
+        </h2>
+        <ul>
+            <li>
+                Web Application Programming
+            </li>
+            <li>
+                Advanced Software Development
+            </li>
+            <li>
+                Modern Web Applications
+            </li>
+            <li>
+                Algorithms
+            </li>
+        </ul>
+    </div>
+    <div class="movies">
+        <h2>
+            My Favorite Movies
+        </h2>
+        <p>
+            <em>( I like to watch Japanese Animes rather than other movies )</em>
+        </p>
+        <ol>
+            <li>
+                
+                Seven Deadly Sins <a href="https://www.netflix.com/">( NETFLIX )</a>
+                <div class="movieDetails">
+                    <span>Director</span>
+                        <p>Written and illustrated by <strong>Nakaba Suzuki</strong></p>
+                    <span>Genre</span>
+                        <p>Advanture, Fantasy, Anime ( <a href="" class="more">more</a> )</p>
+                    <span>Tagline</span>
+                        <p>"A real sin... can't be erased, no matter whaaaaat you do."</p>
+                </div>                
+            </li>
+            <li>
+                The Wise man's grandson
+            </li>
+            <li>
+                Rise of the Shield Hero
+            </li>
+            <li>
+                Bungo Stray Dogs 
+            </li>
+        </ol>
+    </div>
+    <div class="moods">
+        <h2>
+            My Moods
+        </h2>      
+        <span>
+            Happy: 
+        </span> 
+        <img src="https://cdn1.iconfinder.com/data/icons/smiley-faces/100/Smiley_cool_face-512.png" alt="Happy mood" width="120"> 
+        <span>
+            Sad: 
+        </span> 
+        <img src="https://cdn1.iconfinder.com/data/icons/smiley-faces/100/Smiley_cry_sad-28-512.png" alt="Happy mood" width="120">
+    </div>
+    <div class="other_stuff">
+        <h2>
+            Something About My Neighbor
+        </h2>
+        <p>
+            <em>( He is from <a href="https://en.wikipedia.org/wiki/Egypt">Egypt</a> ) and He is my Dormmate</em>     
+        </p>
+    </div>
+    <footer>
+        <a href="index.html">
+            <img src="images/home.png" alt="css validator"/>
+        </a>  
+        <a href="https://validator.w3.org/check/referer">
+            <img src="images/w3c-html.png" alt="html validator"/>
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img src="images/w3c-css.png" alt="css validator"/>
+        </a>
+    </footer>
+</body>
+</html>

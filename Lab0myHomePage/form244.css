@@ -1,0 +1,52 @@
+
+  
+.sing_up{
+    border: 2px solid grey;
+    /*mso-border-shadow: yes;*/
+    border-radius: 10px;
+    background-color: #dfdfff;
+    width: 620px;
+    padding: 9px;
+}
+
+._label{
+    font-weight:bold !important;
+    width: 155px ;
+    margin: 0 !important;
+    display: inline-block;
+}
+
+._input{
+    width: 390px;
+    margin: 0 !important;
+    display: inline-block;
+}
+
+
+.input_submit{
+    background-color: #b47573;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 8px;
+}
+
+
+.range{
+    width: 20%;
+}
+
+.linkPersonality{
+    text-decoration: none;
+    color:lightcoral;
+}
+
+.top_label{
+    border: 1px solid black;
+    width: 125px;
+    margin-bottom: -12px;
+    margin-left: 15px;
+    position: relative;
+    padding:4px;
+    background-color: white;
+
+}
