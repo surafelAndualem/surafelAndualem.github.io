@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="ascii.css">
+    <script src="ascii.js"></script>
+    <script src="animation.js"></script>
+</head>
+<body>
+<h1 id="title">CS472: ASCII Animation Viewer</h1>
+<textarea name="" id="txtArea" cols="80" rows="20"></textarea>
+<div id="button_row">
+    <div class="button_group">
+        <fieldset>
+            <legend>Play Controls:</legend>
+            <button id="startButton" onclick="startAnimation()">Start</button>
+            <button id="stopButton" onclick="stopAnimation()">Stop</button>
+        </fieldset>
+    </div>
+    <div class="button_group">
+        <fieldset>
+            <legend>Animation:</legend>
+            <select  id="animation" name="animation">
+                <option value="BLANK">Blank</option>
+                <option value="EXERCISE">EXERCISE</option>
+                <option value="JUGGLER">JUGGLER</option>
+                <option value="BIKE">BIKE</option>
+                <option value="DIVE">DIVE</option>
+                <option value="CUSTOM">CUSTOM</option>
+            </select>
+        </fieldset>
+    </div>
+    <div class="button_group">
+        <fieldset>
+            <legend>Size:</legend>
+            <select onchange="changeFontSize()" name="size" id="size">
+                <option value="7pt">Tiny</option>
+                <option value="10pt">Small</option>
+                <option value="16pt">Large</option>
+                <option value="24pt">Extra Large</option>
+                <option value="32pt">XXL</option>
+            </select>
+        </fieldset>
+    </div>
+    <div class="button_group">
+        <fieldset>
+            <legend>Speed:</legend>
+            <label for="turbo">Turbo</label>
+            <input id="turbo" type="checkbox">
+        </fieldset>
+    </div>
+</div>
+
+</body>
+</html>
