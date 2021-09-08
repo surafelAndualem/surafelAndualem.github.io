@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        var rudyTimer = (function () {
+                var delayMsg2 = function () {
+                    timer = null;
+                    if (timer === null) {
+                        timer = setInterval(rudy, 1000);
+                    } else {
+                        clearInterval(timer);
+                        timer = null;
+                    }
+                }
+
+
+                var rudy = function rudy() {
+                    document.getElementById("output").innerHTML += "Rudy!";
+                }
+                return delayMsg2;
+            } )();
+    </script>
+</head>
+<body>
+
+<button onclick="rudyTimer();">Click me!</button>
+<span id="output"></span>
+
+
+</body>
+</html>
